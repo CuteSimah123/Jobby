@@ -1,0 +1,34 @@
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.form-control {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #337ab7; /* added a background color */
+  color: #fff; /* added a text color */
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background-color: #23527c;
+}
